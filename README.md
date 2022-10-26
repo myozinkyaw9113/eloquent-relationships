@@ -1,7 +1,11 @@
 # Setup 
 
 ```
-Clone the
+git clone git@github.com:myozinkyaw9113/eloquent-relationships.git
+cd eloquent-relationships
+composer install
+setup .env
+php artisan migrate:fresh --seed
 
 ```
 
