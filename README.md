@@ -6,7 +6,6 @@ cd eloquent-relationships
 composer install
 setup .env
 php artisan migrate:fresh --seed
-
 ```
 
 # One to One
